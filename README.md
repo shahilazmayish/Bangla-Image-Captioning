@@ -3,7 +3,7 @@
 
 >The main goal of this project model is to assign each pixel of an image in a category label. This network provides a complete understanding of the scene. It predicts the label, location as well as shape of each element in the image. 
 
-###Image captioning is the process of generating textual description from an image.
+#### Image captioning is the process of generating textual description from an image.
 The first part is handled by CNNs and the second is handled by RNNs. Use both Natural Language Processing and Computer Vision to generate the captions.
 
 If we are told to describe this image,
@@ -12,7 +12,7 @@ If we are told to describe this image,
 
 While forming the description, we are seeing the image but at the same time, we are looking to create a meaningful sequence of words.
 
-###Model
+### Model
 - Developing Deep Learning Model  -> Google Colab
 - Generate New Captions
 - Preparing Photo Data
@@ -20,48 +20,38 @@ While forming the description, we are seeing the image but at the same time, we 
 	- Each photo has two described captions
 - Evaluate Model
 
-###Design Approach
+### Design Approach
 - RNN + CNN
 - Encoder-decoder model
 
-###EncoderCNN
+### EncoderCNN
 - Extract feature vector from input image
 - Based on pretrained ResNet50
 - Only require very small modifies
-###DecoderRNN
+### DecoderRNN
 - LSTM: Long Short Term Memory networks
 - Multiple Copies of the same network
 - Contained three gates to control the cell state
 - Capable of learning long-term dependencies.
-![Encoder-DecoderModel](img\encdr_dcdr_model.png)
+![encdr_dcdr_model](https://user-images.githubusercontent.com/30392912/150977998-eeef9d94-9562-4105-9c4b-6ec007b0e19a.png)
 
+### Tools
+![tools](https://user-images.githubusercontent.com/30392912/150977964-100257a7-9eed-4572-b3be-bf7fcc7c8312.png)
+Notepad++
+Avro (Bangla Writings)
+Flatten
+Convolution2D
+Dropout
+LSTM
+TimeDistributed
+Embedding, Bidirectional
+Activation
+RepeatVector
+Concatenate
+### Result Analysis
+![result_analysis](https://user-images.githubusercontent.com/30392912/150978502-71a08dbc-6956-49e3-8942-5586212588d7.png)
+![result_analysis2_with_BLEU-score](https://user-images.githubusercontent.com/30392912/150978518-85cfa309-8b94-4d19-bd6e-c4d1ccc075bf.png)
 
+# Bangla Image Captioning Poster
+![499B_Poster_Bangla_Image_Captioning](https://user-images.githubusercontent.com/30392912/150978544-91324bfa-fed8-4ed9-a5ea-e9b9104e03b1.png)
 
-
-
-
-
-
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
