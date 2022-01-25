@@ -40,17 +40,8 @@ While forming the description, we are seeing the image but at the same time, we 
 ### Tools
 ![tools](https://user-images.githubusercontent.com/30392912/150977964-100257a7-9eed-4572-b3be-bf7fcc7c8312.png)
 
-Notepad++
-Avro (Bangla Writings)
-Flatten
-Convolution2D
-Dropout
-LSTM
-TimeDistributed
-Embedding, Bidirectional
-Activation
-RepeatVector
-Concatenate
+Notepad++, Avro (Bangla Writings), Flatten, Convolution2D, Dropout, LSTM, TimeDistributed, Embedding, Bidirectional, Activation, RepeatVector, Concatenate.
+
 ### Result Analysis
 ![result_analysis](https://user-images.githubusercontent.com/30392912/150978502-71a08dbc-6956-49e3-8942-5586212588d7.png)
 ![result_analysis2_with_BLEU-score](https://user-images.githubusercontent.com/30392912/150978518-85cfa309-8b94-4d19-bd6e-c4d1ccc075bf.png)
