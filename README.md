@@ -5,6 +5,8 @@
 The main goal of this project model is to assign each pixel of an image in a category label. This network provides a complete understanding of the scene. It predicts the label, location as well as shape of each element in the image.
 Difficulty of this network's computational work depends on the scene and label variety.
 
+![Poster](499B Poster Banglay Image Captioning.jpg)
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [dill]: <https://github.com/joemccann/dillinger>
